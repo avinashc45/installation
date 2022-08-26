@@ -1,0 +1,4 @@
+vi /lib/systemd/system/jenkins.service
+Environment="JENKINS_PORT=8088"
+systemctl daemon-reload
+systemctl restart jenkins
