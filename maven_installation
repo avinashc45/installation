@@ -7,7 +7,7 @@ sudo chmod +x /etc/profile.d/maven.sh
 source /etc/profile.d/maven.sh
 mvn -version
 
-
+yum install java-devel
 
 
 cat /etc/profile.d/maven.sh
