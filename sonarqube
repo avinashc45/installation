@@ -12,3 +12,14 @@
    11  ls -lrt
    12  chmod -R 775 /opt/sonarqube-8.9.10.61524
    13  su - sonar
+
+SONAR USER
+1  pwd
+    2  cd /opt/sonarqube-8.9.10.61524/
+    3  ls
+    4  cd bin/
+    5  ls
+    6  cd linux-x86-64/
+    7  ls
+    8  ./sonar.sh start
+    9  ./sonar.sh status
