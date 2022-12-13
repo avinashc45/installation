@@ -1,0 +1,14 @@
+[root@ip-172-31-44-176 ~]# history
+    1  clear
+    2  cd /opt/
+    3  ls
+    4  yum install unzip -y
+    5  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.10.61524.zip
+    6  unzip sonarqube-8.9.10.61524.zip
+    7  useradd sonar
+    8  id sonar
+    9  visudo
+   10  chown -R sonar:sonar /opt/sonarqube-8.9.10.61524
+   11  ls -lrt
+   12  chmod -R 775 /opt/sonarqube-8.9.10.61524
+   13  su - sonar
