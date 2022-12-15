@@ -23,3 +23,7 @@ SONAR USER
     7  ls
     8  ./sonar.sh start
     9  ./sonar.sh status
+
+
+CONFIGURATION TO JENKINS
+sonarqubescanner plugin
